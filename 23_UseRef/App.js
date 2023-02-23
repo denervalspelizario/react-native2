@@ -57,7 +57,9 @@ export default function App(){
 
   function novoNome(){ // 1 funcao que altera a qualquer nome
     nomeInput.current.focus(); // 1 como foi referenciao o nomeInput ao input(linha 79) ao clicar botao(linha 90) chama funcao novoNome que foca(ativa o elemento)  input 
-  }                            // 1 ao ativar o elemento input, abre o teclado deixando pronto paa digitar algo  
+  }                            // 1 ao ativar o elemento input, abre o teclado deixando pronto paa digitar algo 
+                               // IMPORTANTE NESTE CASO FOI REFERENCIADO UM INPUT MAS PODE-SE REFERENCIA QUALUQER ELEMENTO UM TEXT, UM VIEW QUALQUER COISA , ENTÃO É SÓ
+                               // ADICOONAR NO ELEMENTO ref={} E PRONTO  
 
   const letrasNome = useMemo(() => { /*console.log('mudou letra');*/  return nome.length} ,[nome] )   // 1 primeiro parametro é uma funcao  e o colchete é um array de dependecia
   /* a funcao useMemo precisa ser importada, e tem como funcao diminuir uso de memoria ao se usa-la neste exeplo ele somente vai ser renderizado apos o clique
