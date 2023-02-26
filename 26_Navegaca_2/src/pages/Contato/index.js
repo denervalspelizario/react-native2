@@ -7,8 +7,8 @@ export default function Contato(){
     const navigation = useNavigation(); // 5 adicionando elemento a funcao navigation
 
     function handleHome(){
-        navigation.dispatch(StackActions.popToTop()) //6 volta pro inicio
-    }
+        navigation.dispatch(StackActions.popToTop()) // 6 funcao que zera a pilha de navegação(pois anavegação esta em pilha (stack navigation))
+    }                                                // e volta pro inicio(popToTop)                  
 
     return(
         <View>

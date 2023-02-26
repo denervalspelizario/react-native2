@@ -12,9 +12,8 @@ export default function Sobre(){
   
   useLayoutEffect(()=>{ // 5 quando abrir o app ele vai abrir, ele é assincrono ou seja só vai exibir quando carregar tudo
     navigation.setOptions({
-      title: route.params?.nome === '' ? 'Pagina Sobre' : route.params?.nome
+      title: route.params?.nome === '' ? 'Pagina Sobre' : route.params?.nome // se a propriedade repassada estiver vazia deixe Pagina sobre senão mostra como titulo o dado repassado
     })
-
 
   },[navigation]) // 5 colchete de dependecia inicializa assim que ultiliza o navigation app igual component didUpdate
   
