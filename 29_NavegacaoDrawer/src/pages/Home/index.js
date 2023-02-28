@@ -11,7 +11,8 @@ export default function Home(){
  }
  
  function AbrirDrawer(){
-   navigation.openDrawer() 
+   navigation.openDrawer()  // abre o drawer
+// navigation.closeDrawer(); // fecha a navegação
  }
                                                                               
   return(
