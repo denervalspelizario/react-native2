@@ -38,7 +38,7 @@ export default function App(){
         
           let data = {
             key: childItem.key,
-            nome: childItem.val().nome,
+            nome: childItem.val().nome, 
             cargo: childItem.val().cargo,
 
           };

@@ -86,7 +86,7 @@ export default function App(){
       <TextInput 
         style={styles.input}
         underlineColorAndroid='transparent'
-        onChangeText={(texto) => setNome(texto)}     
+        onChangeText={(texto) => setNomeInput(texto)}     
         value={nome} // valor de input será a state nome
       />
 
@@ -94,7 +94,7 @@ export default function App(){
       <TextInput 
         style={styles.input}
         underlineColorAndroid='transparent'
-        onChangeText={(texto) => setCargo(texto)} 
+        onChangeText={(texto) => setCargoInput(texto)} 
         value={cargo} // o valor do input será a state cargo    
       />
 
