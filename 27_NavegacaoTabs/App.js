@@ -8,17 +8,23 @@ import { Feather } from '@expo/vector-icons'; // importabdo a biblioteca desejad
 
 
 /*
-  **Documenatcao da biblioteca https://reactnavigation.org/docs/bottom-tab-navigator
+  **Documenatcao da biblioteca https://reactnavigation.org/docs/getting-started/
   
   **Para EXPO
-    comando para instalar expo install @react-navigation/bottom-tabs
+    Para instalar em expo o comando  expo install @react-navigation/native 
+    Segundo npx expo install react-native-screens react-native-safe-area-context 
+    Para trabalhar com StackNavigator(navegação em pilha) no expo instalar expo install @react-navigation/native-stack
+    Para trabalhar com Tabs  expo install @react-navigation/bottom-tabs
 
 
   ** Para CLI
-      comanando para instalar  npm install @react-navigation/bottom-tabs
+    Para instalar em projeto normal npm install @react-navigation/native  
+    Depois npm install react-native-screens react-native-safe-area-context
+    Depois instalar pelo npm install @react-navigation/native-stack  para usar o creativeNativeStackNavigator(navegação em pilha)
+    Para trabalhar com Tabs  npm install @react-navigation/bottom-tabs
 
 
-  ** leia documentacao obs tem queantes de tudo tem que instalar o react-navigation olhar navegacao_2 ou navegacao
+  ** leia documentacao https://reactnavigation.org/docs/stack-navigator/
 */
 
 const Tab = createBottomTabNavigator(); // 2 adicionando a variavel Stack o tipo de navegacao ou seja a biblioteca createNativeStackNavigator

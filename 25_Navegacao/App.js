@@ -8,13 +8,17 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'; // 
   **Documenatcao da biblioteca https://reactnavigation.org/docs/getting-started/
   
   **Para EXPO
-    Para instalar em expo o comando npx expo install react-native-screens react-native-safe-area-context e npm install @react-navigation/native
-    Para trabalhar com creativeNativeStackNavigator(navegação em pilha) no expo instalar expo install @react-navigation/native-stack
+    Para instalar em expo o comando  expo install @react-navigation/native 
+    Segundo npx expo install react-native-screens react-native-safe-area-context 
+    Para trabalhar com StackNavigator(navegação em pilha) no expo instalar expo install @react-navigation/native-stack
+    Para trabalhar com Tabs  expo install @react-navigation/bottom-tabs
 
 
   ** Para CLI
-    Para instalar em projeto normal npm install @react-navigation/native e depois npm install react-native-screens react-native-safe-area-context
-    depois instalar pelo npm install @react-navigation/native-stack  para usar o creativeNativeStackNavigator(navegação em pilha)
+    Para instalar em projeto normal npm install @react-navigation/native  
+    Depois npm install react-native-screens react-native-safe-area-context
+    Depois instalar pelo npm install @react-navigation/native-stack  para usar o creativeNativeStackNavigator(navegação em pilha)
+    Para trabalhar com Tabs  npm install @react-navigation/bottom-tabs
 
 
   ** leia documentacao https://reactnavigation.org/docs/stack-navigator/
